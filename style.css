@@ -1,0 +1,86 @@
+@import url('https://googleapis.com');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container1 {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 75vh;
+    /*border: 5px solid green;*/
+}
+
+.bottom1,
+.top1,
+.box1{
+    /*border: 5px solid yellow;*/
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.box1 {
+    align-items: end;
+}
+
+.box2 {
+    display: flexbox;
+    /*border: 5px solid orange;*/
+    margin-left: 180px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 450px;
+}
+
+.box3 {
+    /*border: 5px solid orange;*/
+    background-color: #6b707b;
+    text-align: center;
+    padding: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 175px;
+    width: 300px;
+}
+
+.box3,
+.text2,
+.item1 {
+    font-size: 18px;
+}
+
+.text1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.logo,
+.item1 {
+    padding: 10px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+#button1 {
+    color: white;
+    background: #3882f6;
+    border-radius: 7.5px;
+    margin-top: 10px;
+    padding: 7.5px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid #3882f6;
+}
+
+
+
