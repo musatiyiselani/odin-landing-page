@@ -83,4 +83,39 @@ body {
     border: 0.1rem solid #3882f6;
 }
 
+@media (max-width: 768px) {
+    .container1 {
+        height: auto;  /* don't fix height on mobile */
+    }
+
+    .bottom1 {
+        flex-direction: column;  /* stack vertically */
+    }
+
+    .top1 {
+        flex-direction: column;  /* stack header vertically */
+    }
+
+    .box1 {
+        flex-direction: column;  /* stack links vertically */
+    }
+
+    .box2 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .box3 {
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    .text1 {
+        font-size: 2rem;  /* shrink big text */
+    }
+
+    #button1 {
+        width: 60%;  /* make button wider */
+    }
+}
 
